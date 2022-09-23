@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box; 
+   }
+
+@media screen and (max-width:768px) {
+    .topBox {
+        display: inline-block;
+        background-color:#F5C6D6;
+        border: solid white;
+        height: 50px;
+        width: 300px;
+        position: static;
+    
+    }
+    .midBox{
+        display: inline-block;
+        background-color:#EE2E84;
+        border: solid white;
+        height: 50px;
+        width: 300px;
+        position: static;
+    }
+    .midBottomA{
+        display: inline-block;
+        background-color:#85CFD8;
+        border: solid white;
+        height: 50px;
+        width: 300px;
+    }
+    .midBottomB{
+        display: inline-block;
+        background-color:#01090a;
+        border: solid white;
+        height: 50px;
+        width: 300px;
+        position: relative;
+
+    }
+    .bottomBoxA{
+        display: inline-block;
+        background-color: #8DC63F;
+        order: solid white;
+        height: 50px;
+        width: 300px;
+        position: relative;
+    }
+    .bottomBoxB{
+        display: inline-block;
+        background-color: #E76E34;
+        border: solid white;
+        height: 50px;
+        width: 300px;
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .topBox {
+        display: inline-block;
+        background-color:#F5C6D6;
+        border: solid white;
+        height: 150px;
+        width: 768px;
+        position: static;
+    
+    }
+    .midBox{
+        display: inline-block;
+        background-color:#EE2E84;
+        border: solid white;
+        margin:10px;
+        height: 150px;
+        width: 170px;
+        position: relative;
+       
+    }
+    .midBottomA{
+        display: inline-block;
+        background-color:#85CFD8;
+        border: solid white;
+        margin: 10px;
+        height: 150px;
+        width: 365px;
+    }
+    .midBottomB{
+        display: inline-block;
+        background-color:#01090a;
+        margin: 10px;       
+        border: solid white;
+        height: 150px;
+        width: 365px;
+      
+
+    }
+    .bottomBoxA{
+        display: inline-block;
+        background-color: #8DC63F;
+        order: solid white;
+        height: 150px;
+        width: 550px;
+        position: relative;
+    }
+    .bottomBoxB{
+        display: inline-block;
+        background-color: #E76E34;
+        margin-left: 50px;
+        border: solid white;
+        height: 150px;
+        width: 165px;
+        position: absolute;
+        
+    }
+    
+}
+
+
+
+
+
